@@ -1,0 +1,14 @@
+header {
+  color: red;
+}
+footer {
+  color: red;
+}
+button {
+  background-color: red;
+}
+.fancier-border {
+  border: 10px dashed green;
+  background-color: chartreuse;
+  border-radius: 5px;
+}

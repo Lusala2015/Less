@@ -1,0 +1,19 @@
+@theme-color:red;
+header{
+    color: @theme-color;
+}
+footer{
+    color: @theme-color;
+}
+button{
+    background-color: @theme-color;
+}
+
+.fancy-border(){
+    border: @size dashed @color;
+}
+.fancier-border{
+    .fancy-border();
+    background-color: chartreuse;
+    border-radius: 5px;
+}
